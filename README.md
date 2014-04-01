@@ -1,3 +1,15 @@
+# Octopress Theme, VC version ![MIT License](http://img.shields.io/badge/license-MIT-blue.svg)
+
+![release](http://img.shields.io/github/release/vc7/classic-light-vc.svg)
+
+## Font
+
+Adding fonts
+
+- Montserrat
+- Open Sans
+- Ubuntu Mono
+
 # Octopress Themes - Classic Light Theme
 
 ![Octopress Classic Light Theme thumbnail](https://s3.amazonaws.com/static.octopressthemes.com/thumbnails/light-thumbnail.png)
