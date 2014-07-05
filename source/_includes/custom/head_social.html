@@ -8,3 +8,6 @@
 {% if page.hero %}
 	<meta property="og:image" content="{{ page.hero }}"/>
 {% endif %}
+{% if page.title %}
+	<meta property="article:author" content="{{ site.author | strip_html }}"/>
+{% endif %}
