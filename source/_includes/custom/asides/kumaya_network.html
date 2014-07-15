@@ -1,0 +1,10 @@
+{% if site.kumaya_network %}
+<section>
+  <h1>Kumaya | 熊屋</h1>
+    {% for item in site.kumaya_network %}
+      <li>
+        <a href="{{ item.url }}" id="kn-{{ item.id }}" target="_blank">{{ item.name }}</a>
+      </li>
+    {% endfor %}
+</section>
+{% endif %}
