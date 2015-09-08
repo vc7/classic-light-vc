@@ -2,11 +2,11 @@
 <meta property="og:title" content="{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}" />
 <meta property="og:type" content="{% if page.title %}article{% else %}website{% endif %}" />
 <meta property="og:url" content="{{ canonical }}" />
-{% if site.hero %}
-	<meta property="og:image" content="{{ site.hero }}"/>
-{% endif %}
 {% if page.hero %}
 	<meta property="og:image" content="{{ page.hero }}"/>
+{% endif %}
+{% if site.hero %}
+	<meta property="og:image" content="{{ site.hero }}"/>
 {% endif %}
 
 <!-- Facebook tags -->
